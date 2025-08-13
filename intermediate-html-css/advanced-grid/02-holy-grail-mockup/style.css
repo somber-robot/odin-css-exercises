@@ -17,6 +17,19 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+}
+
+.logo{
+  justify-self: left;
+}
+
+.menu ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
@@ -26,6 +39,9 @@
 
 .sidebar {
   background-color: #C50208;
+  display: grid;
+  grid-column: 1fr;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -48,6 +64,12 @@
   background-color: #C50208;
 }
 
+.nav ul{
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
@@ -55,6 +77,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
 }
 
 .article p {
@@ -68,6 +93,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
