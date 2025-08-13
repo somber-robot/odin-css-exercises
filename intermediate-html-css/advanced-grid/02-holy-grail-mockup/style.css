@@ -7,7 +7,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  /* grid-template-rows: 1fr 0.5fr 10fr 0.5fr; */
   gap: 4px;
 }
 
@@ -22,10 +21,9 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   grid-column: 1 / -1;
-  grid-row: 1;
 }
 
 .logo{
@@ -112,6 +110,7 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 5px;
 }
 
 .card .title {
